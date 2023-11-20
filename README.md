@@ -1,18 +1,18 @@
 # Movies Release Data Scraper
 
 ## Introduction
-This repository contains Python scripts for scraping movie release data from three different websites: IMDb (for movies releasing in Portugal), Cinemas NOS, and Castello Lopes Cinemas. 
+This repository contains folders, each one with one Python script, for scraping movie release data from three different websites: IMDb (for movies releasing in Portugal), Cinemas NOS, and Castello Lopes Cinemas. 
 
 ## Scripts Overview
 
 ### 1. IMDb - Upcoming Movies in Portugal
-The `imdb_upcoming_movies_portugal.py` script scrapes data about upcoming movie releases in Portugal from IMDb. It organizes the data and saves it as a CSV file.
+The `imdb_upcoming_movies_portugal.py` script, from the `imdb_web_scraper` folder, scrapes data about upcoming movie releases in Portugal from IMDb. It organizes the data and saves it as a CSV file.
 
 ### 2. Cinemas NOS - Upcoming Movies
-The `nos_upcoming_premier_movies.py` script extracts data from the Cinemas NOS website. It categorizes movies into upcoming releases and past premieres, based on the user's choice, and saves the information to a CSV file.
+The `nos_upcoming_premier_movies.py` script, from the `nos_web_scraper` folder, extracts data from the Cinemas NOS website. It categorizes movies into upcoming releases and past premieres, based on the user's choice, and saves the information to a CSV file.
 
 ### 3. Castello Lopes Cinemas - Upcoming Movies
-The `castello_lopes_upcoming_premier_movies.py` script extracts data from the Castello Lopes Cinemas website. It categorizes movies into upcoming releases and past premieres, based on the user's choice, and saves the information to a CSV file.
+The `castello_lopes_upcoming_premier_movies.py` script, from the `castello_lopes_web_scraper` folder, extracts data from the Castello Lopes Cinemas website. It categorizes movies into upcoming releases and past premieres, based on the user's choice, and saves the information to a CSV file.
 
 ## Requirements
 - Python 3
@@ -27,7 +27,7 @@ The `castello_lopes_upcoming_premier_movies.py` script extracts data from the Ca
    ```bash
    pip install requests beautifulsoup4 pandas
    ````
-3. Run the script of your choice:
+3. Run the script of your choice, inside of their folder:
    ```bash
    python3 imdb_upcoming_movies_portugal.py
    ```
